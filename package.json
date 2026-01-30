@@ -1,0 +1,14 @@
+{
+  "name": "The Honest Company",
+  "version": "1.0.0",
+  "description": "Root script to run client and server",
+  "scripts": {
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "install-all": "cd server && npm install && cd ../client && npm install"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
